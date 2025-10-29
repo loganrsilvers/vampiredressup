@@ -1,0 +1,96 @@
+:root{
+    --blue: #1b1647;
+    --purple: #4b1a43;
+    --blood-red: #5b0000;
+    --red: #8b0203;
+    --cream: #fff5ea;
+    --light-brown: #a27355;
+    --dark-brown: #602d0e;
+    --black: #170101;
+    --white: #fcfcfc;
+}
+
+@font-face {
+    font-family: 'typewriter';
+    src: url(Essays1743.ttf);
+}
+@font-face {
+    font-family: 'typewriter-bold';
+    src: url(Essays1743-Bold.ttf);
+}
+@font-face {
+    font-family: 'typewriter-italic';
+    src: url(Essays1743-Italic.ttf);
+}
+@font-face {
+    font-family: 'typewriter-bold-italic';
+    src: url(Essays1743-BoldItalic.ttf);
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background: var(--black);
+    color: var(--white);
+    font-family: 'typewriter', monospace;
+}
+h1 {
+    font-family: 'typewriter-bold', monospace;
+    text-shadow: var(--red) 4px 4px 4px;
+    text-decoration: wavy underline var(--red);
+}
+h3 {
+    font-family: 'typewriter-italic', monospace;
+    text-shadow: var(--red) 2px 2px 2px;
+}
+i {
+    font-family: 'typewriter-italic', monospace;
+}
+b {
+    font-family: 'typewriter-bold', monospace;
+}
+#container {
+    height: 100vh;
+    width: 100vw;
+}
+main, aside {
+    height: 100%;
+}
+main{
+    width: 70%;
+    float: left;
+    background: var(--blue);
+    background: linear-gradient(180deg,var(--blue) 0%, var(--black) 100%);
+}
+#main-shirt, #main-pants, #main-accessory {
+    display: block;
+    margin: 0 auto;
+    padding-top: 20px;
+    width: 50%;
+}
+aside {
+    width: 30%;
+    float: right;
+    background: var(--blood-red);
+    overflow-y: scroll;
+    scrollbar-color: var(--black) var(--red);
+    background: url(../img/bg1.jpg);
+}
+aside img {
+    cursor: pointer;
+    width: 30%;
+}
+
+#shirts, #pants, #accessories {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 0px;
+    padding: 0;
+    margin: 0;
+    background: rgba(0, 0, 0, 0.5);
+    margin-top: 10px;
+    margin-bottom: 10px;
+}

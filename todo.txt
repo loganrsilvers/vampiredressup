@@ -1,0 +1,14 @@
+we must have added
+
+intro screen 
+    enter the shop to play (open door hover..?)
+
+    speech bubble confirmation "hermmmmm.. not what i was looking for"
+    or "oh! wow this is so good!"
+confirm button to confirm selection 
+    you will be paid in blood and the person says goodbye
+    sends you to the next client
+
+end screen after finishing 
+    logs the scores for all three people on a recipt 
+    play again button (to the front of the shop)
