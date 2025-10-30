@@ -98,19 +98,21 @@ aside img {
 
 #theBod {
     display: block;
-    position: relative;
+    position: absolute;
     margin: 0 auto;
     padding-top: 20px;
-    width: 20%;
-    height: auto;
+    height: 90%;
+    width: auto;
+    bottom: 0px;
+    right: 40%;
 }
 
 #body {
     width: 100%;
-    height: auto;
     display: block;
     position: relative;
     z-index: 0;
+    bottom: 0px;
 }
 
 #main-shirt, #main-pants, #main-accessory {
@@ -118,7 +120,6 @@ aside img {
     top: 0;
     left: 0;
     width: 100%;
-    height: auto;
     z-index: 1;
     pointer-events: none;
 }
@@ -142,3 +143,55 @@ aside img {
 #door:hover {
     background-image: url(opendooor);
 } */
+
+
+
+
+
+#speech-bubble {
+  background: rgba(255,255,255,0.8);
+  color: var(--red);
+  padding: 10px 20px;
+  border-radius: 20px;
+  font-size: 1.3em;
+  margin-bottom: 10px;
+  min-height: 2em;
+  font-family: 'typewriter-bold-italic', monospace;
+}
+#blood-drip {
+  min-height: 2em;
+  font-size: 1.5em;
+  margin-bottom: 12px;
+}
+
+
+#score-popup {
+  position: fixed;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  background: rgba(255, 255, 255, 0.9);
+  color: #8b0203;
+  border: 2px solid #5b0000;
+  padding: 10px 20px;
+  border-radius: 10px;
+  z-index: 9999;
+  font-family: 'typewriter-bold', monospace;
+  text-align: center;
+  opacity: 0;
+  transition: opacity 2s ease-in-out;
+}
+
+#score-popup.fade-in {
+  opacity: 1;
+}
+
+#score-popup ul {
+  list-style: none;
+  padding: 0;
+  margin: 5px 0;
+}
+
+#score-popup li {
+  margin: 3px 0;
+}

@@ -9,9 +9,18 @@
 <body>
     <div id="container">
         <main>
+            <div id="client-req"></div>
+            <div id="speech-bubble"></div>
+
             <h1>Vello, Velcome to Vlad's Vloset</h1>
             <audio id="bg-music" src="audio/bg-music.mp3" autoplay loop></audio>
             <a href="second.html">NEXT --></a>
+
+            <div id="score-popup"></div>
+            <button id="confirmBtn">Confirm Outfit</button>
+            <div id="blood-drip"></div>
+            <div id="score-receipt" style="display:none;"></div>
+
             <div id="theBod">
                 <img src="img/body1.webp" alt="Selected Body" id="body">
                 <img id="main-shirt" src="img/shirt1.webp" alt="Selected Shirt">
@@ -22,24 +31,27 @@
         <aside>
             <h3>tops</h3>
             <div id="shirts">
-                <img class="shirt-option" src="img/shirt1.webp" alt="Shirt 1">
-                <img class="shirt-option" src="img/shirt2.webp" alt="Shirt 2">
-                <img class="shirt-option" src="img/shirt3.webp" alt="Shirt 3">
+                <img class="shirt-option" src="img/Icons/shirt1.png" alt="Shirt 1" data-src="img/shirt1.webp">
+                <img class="shirt-option" src="img/Icons/shirt2.png" alt="Shirt 2" data-src="img/shirt2.webp">
+                <img class="shirt-option" src="img/Icons/shirt3.png" alt="Shirt 3" data-src="img/shirt3.webp">
             </div>
             <h3>bottoms</h3>
             <div id="pants">
-                <img class="pants-option" src="img/pants1.webp" alt="Pants 1">
-                <img class="pants-option" src="img/pants2.webp" alt="Pants 2">
-                <img class="pants-option" src="img/pants3.webp" alt="Pants 3">
+                <img class="pants-option" src="img/Icons/pants1.png" alt="Pants 1" data-src="img/pants1.webp">
+                <img class="pants-option" src="img/Icons/pants2.png" alt="Pants 2" data-src="img/pants2.webp">
+                <img class="pants-option" src="img/Icons/pants3.png" alt="Pants 3" data-src="img/pants3.webp">
             </div>
             <h3>acessories</h3>
             <div id="accessories">
-                <img class="extra-option" src="img/extra1.webp" alt="Extra 1">
-                <img class="extra-option" src="img/extra2.webp" alt="Extra 2">
-                <img class="extra-option" src="img/extra3.webp" alt="Extra 3">
+                <img class="extra-option" src="img/Icons/extra1.png" alt="Extra 1" data-src="img/extra1.webp">
+                <img class="extra-option" src="img/Icons/extra2.png" alt="Extra 2" data-src="img/extra2.webp">
+                <img class="extra-option" src="img/Icons/extra3.png" alt="Extra 3" data-src="img/extra3.webp">
             </div>
         </aside>
     </div>
-    <script src="script.js"></script>
+    <script src="js/getdressed.js"></script>
+    <script src="js/clients.js"></script>
+    <script src="js/score.js"></script>
+    <script src="js/confirmbutton.js"></script>
 </body>
 </html>
