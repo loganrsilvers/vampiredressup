@@ -40,6 +40,7 @@ h1 {
     font-family: 'typewriter-bold', monospace;
     text-shadow: var(--red) 4px 4px 4px;
     text-decoration: wavy underline var(--red);
+    text-indent: 3%;
 }
 h3 {
     font-family: 'typewriter-italic', monospace;
@@ -130,18 +131,14 @@ aside img {
     z-index: 0;
 }
 #door {
-    background-image: url(../img/door1.png);
-    background-size: contain; 
-    background-repeat: no-repeat;
-    background-position: center;
     position: absolute;
     top: 20%;
     left: 63%;
-    width: 40%;
+    width: 20%;
     height: 70%;
     z-index: 1;
 }
-
+/* 
 #door:hover {
     background-image: url(opendooor);
-}
+} */
