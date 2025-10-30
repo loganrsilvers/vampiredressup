@@ -124,30 +124,6 @@ aside img {
     pointer-events: none;
 }
 
-
-#title {
-    width: 100%;
-    height: 100%;
-    object-fit: fill;
-    z-index: 0;
-}
-#door {
-    position: absolute;
-    top: 20%;
-    left: 63%;
-    width: 20%;
-    height: 70%;
-    z-index: 1;
-}
-/* 
-#door:hover {
-    background-image: url(opendooor);
-} */
-
-
-
-
-
 #speech-bubble {
   background: rgba(255,255,255,0.8);
   color: var(--red);
