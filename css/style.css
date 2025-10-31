@@ -64,10 +64,42 @@ main{
     float: left;
     background: var(--blue);
     background: linear-gradient(180deg,var(--blue) 0%, var(--black) 100%);
-    background: url(../img/vampire_background.jpg) no-repeat fixed;
-    background-size: 1200px 1080px;
+    background-image: url(../img/vampire_background.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
     background-position: left top ;
 }
+
+header {
+    float: right;
+    width: 50%;
+
+    text-align: center;
+    padding: 10px 0;
+    background: #5b000046;
+    border-left: 4px solid var(--black);
+    height: 100%;
+}
+header h1 {
+    font-size: 30px;
+    line-height: 31px;
+}
+header h2 {
+    font-size: 20px;
+    line-height: 21px;
+    margin-top: -10px;
+}
+header p {
+    font-size: 14px;
+    line-height: 15px;
+    margin-top: -5px;
+}
+#speech-bubble, #blood-drip, #confirmBtn {
+    margin: 5px;
+    margin-top: 10px;
+
+}
+
 #main-shirt, #main-pants, #main-accessory {
     display: block;
     margin: 0 auto;
@@ -103,11 +135,10 @@ aside img {
     display: block;
     position: absolute;
     margin: 0 auto;
-    padding-top: 20px;
     height: 51%;
     width: auto;
-    bottom: 0px;
-    right: 70%;
+    top: 20px;
+    left: 10%;
 }
 
 #body {
