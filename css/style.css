@@ -112,7 +112,10 @@ aside {
     background: var(--blood-red);
     overflow-y: scroll;
     scrollbar-color: var(--black) var(--red);
-    background: url(../img/bg1.jpg);
+    background: url(../img/ST060.JPG);
+}
+aside * {
+    margin: 5px;
 }
 aside img {
     cursor: pointer;
@@ -126,7 +129,7 @@ aside img {
     gap: 0px;
     padding: 0;
     margin: 0;
-    background: rgba(0, 0, 0, 0.5);
+    background: rgba(0, 0, 0, 0.317);
     margin-top: 10px;
     margin-bottom: 10px;
 }
@@ -227,8 +230,8 @@ aside img {
     position: absolute;
     margin: 0 auto;
     padding-top: 20px;
-    top: 38%;
-    right: 22%;
+    bottom: -60px;
+    left: 10px;
 }
 
 #toggleButton:hover {
@@ -241,8 +244,8 @@ aside img {
     position: absolute;
     margin: 0 auto;
     padding-top: 20px;
-    top: 38%;
-    right: 22%;
+    bottom: -60px;
+    left: 10px;
 }
 
 #play-again {
