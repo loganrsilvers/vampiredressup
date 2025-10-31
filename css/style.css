@@ -64,6 +64,9 @@ main{
     float: left;
     background: var(--blue);
     background: linear-gradient(180deg,var(--blue) 0%, var(--black) 100%);
+    background: url(../img/vampire_background.jpg) no-repeat fixed;
+    background-size: 1200px 1080px;
+    background-position: left top ;
 }
 #main-shirt, #main-pants, #main-accessory {
     display: block;
@@ -101,10 +104,10 @@ aside img {
     position: absolute;
     margin: 0 auto;
     padding-top: 20px;
-    height: 90%;
+    height: 51%;
     width: auto;
     bottom: 0px;
-    right: 40%;
+    right: 70%;
 }
 
 #body {
@@ -126,14 +129,25 @@ aside img {
 
 #speech-bubble {
   background: rgba(255,255,255,0.8);
+  background: url(../img/bubblebackground.jpg);
   color: var(--red);
   padding: 10px 20px;
   border-radius: 20px;
   font-size: 1.3em;
   margin-bottom: 10px;
   min-height: 2em;
-  font-family: 'typewriter-bold-italic', monospace;
+  font-family: 'typewriter-italic', monospace;
 }
+
+#confirmBtn {
+    background: #5b0000;
+    color: #ffffff;
+    font-family: 'typewriter', monospace;
+    border-width: 3px;
+    border-style: dotted;
+    border-color: #8b0203;
+}
+
 #blood-drip {
   min-height: 2em;
   font-size: 1.5em;
@@ -170,4 +184,41 @@ aside img {
 
 #score-popup li {
   margin: 3px 0;
+}
+
+#toggleButton {
+    background: url(../img/player.png) no-repeat;
+    background-size: 50% 50%;
+    height: 43%;
+    width: 23%;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    margin: 0 auto;
+    padding-top: 20px;
+    top: 38%;
+    right: 22%;
+}
+
+#toggleButton:hover {
+    background: url(../img/player_hover.png) no-repeat;
+    background-size: 50% 50%;
+    height: 43%;
+    width: 23%;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    margin: 0 auto;
+    padding-top: 20px;
+    top: 38%;
+    right: 22%;
+}
+
+#play-again {
+    background: #5b0000;
+    color: #ffffff;
+    font-family: 'typewriter', monospace;
+    border-width: 3px;
+    border-style: dotted;
+    border-color: #8b0203;
 }
